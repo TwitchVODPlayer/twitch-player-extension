@@ -1,0 +1,9 @@
+.sub-only > .stream-display-ad__wrapper,
+.sub-only > .video-ref {
+  display: none;
+}
+
+#tp-vod {
+  width: 100%;
+  height: 100%;
+}

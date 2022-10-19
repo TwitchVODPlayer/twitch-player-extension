@@ -1,0 +1,27 @@
+{
+  "name": "TwitchVODPlayer",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "description": "TwitchVODPlayer Extension",
+  "content_scripts": [
+    {
+      "js": ["extension.js"],
+      "css": ["styles.css"],
+      "matches": ["*://www.twitch.tv/*"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["assets/**/*.*"],
+      "matches": ["*://www.twitch.tv/*"]
+    }
+  ],
+  "icons": {
+    "16": "assets/favicons/icon16.png",
+    "48": "assets/favicons/icon48.png",
+    "128": "assets/favicons/icon128.png"
+  },
+  "env": {
+    "BASE_URL": ""
+  }
+}
