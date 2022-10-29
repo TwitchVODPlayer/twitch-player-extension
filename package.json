@@ -1,18 +1,16 @@
 {
   "name": "twitch-vod-player-extension",
   "description": "TwitchVODPlayer Extension",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Dastan21",
   "license": "Apache-2.0",
   "type": "module",
   "scripts": {
     "dev": "npx rollup -c -w --environment NODE_ENV:development",
-    "build": "npx rollup -c",
-    "pack": "cd dist && npx crx pack -o TwitchVODPlayer.crx"
+    "build": "npx rollup -c"
   },
   "devDependencies": {
     "@types/chrome": "^0.0.198",
-    "crx": "^5.0.1",
     "eslint": "^8.25.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
